@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    body {
+      background-image: url(./bg-full.jpg);
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+
+    .big {
+      background-image: url(./main.jpg);
+      width: 500px;
+      height: 500px;
+      border: 0.5px solid gray;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "Myriad Pro";
+
+    }
+
+    .big .small {
+      width: 400px;
+      height: 200px;
+      /*background: black;*/
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      padding-top: 60px;
+    }
+
+    .big img {
+      max-width: 40%
+    }
+
+    .right1 {
+      background: lightgray;
+      height: 50%;
+      width: 100%;
+      display: flex;
+      align-items: end;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    .cloud {
+      background-image: url(./cloud.png);
+      background-position: right;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 90%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-left: 20px;
+    }
+
+    .cloud-text {
+      height: 90%;
+      width: 65%;
+    }
+
+    .right2 {
+      background: black;
+      height: 50%;
+      width: 100%;
+      display: flex;
+      align-items: end;
+      justify-content: end;
+    }
+
+    .tifa {
+      background-image: url(./tifa.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 90%;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding-right: 20px;
+    }
+
+    .tifa-text {
+      height: 90%;
+      width: 65%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="big" style="border-right: none;">
+    <div class="small" style="border-left: none;"><img src="./ps4-ff7.png" alt=""></div>
+    <div class="small" style="border-left: none;">
+      <div class="text">
+        <h1>AVAILABLE NOW</h1>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel corporis nam hic. Perspiciatis, ullam,
+          aspernatur
+          eligendi amet, est mollitia omnis fugit quos recusandae repellat exercitationem quaerat quo ex quas tempora?
+        </P>
+      </div>
+
+    </div>
+  </div>
+  <div class="big" style="border-left: none;">
+    <div class="right1">
+      <div class="cloud">
+        <div class="cloud-text">
+          <h1>Cloud</h1>
+          <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel corporis nam hic. Perspiciatis, ullam,
+            aspernatur
+            eligendi amet, est mollitia omnis fugit quos recusandae repellat exercitationem quaerat quo ex quas tempora?
+          </P>
+        </div>
+      </div>
+    </div>
+
+    <div class="right2">
+      <div class="tifa">
+        <div class="tifa-text" style="color: white;">
+          <h1>Tifa</h1>
+          <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel corporis nam hic. Perspiciatis, ullam,
+            aspernatur
+            eligendi amet, est mollitia omnis fugit quos recusandae repellat exercitationem quaerat quo ex quas tempora?
+          </P>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+</body>
+
+</html>
